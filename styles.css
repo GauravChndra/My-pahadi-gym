@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  font-family: Arial sans-serif;
+  border: border-box;
+ 
+
+}
+.navbar {
+  height: 140px;
+  background-color:black;
+  color:whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  font-size: 2.8rem;
+  
+
+
+}
+
+
+
+.nav-logo {
+  height: 100;
+  width: 530px;
+  
+
+}
+
+.logo {
+  
+    width: 141px;
+    height: 141px;
+    max-width: 1280px;
+    margin: 0px;
+    background-image: url('free body.webp');
+    background-size: cover;
+    background-position: cover;
+    border-radius: 200%; /* Circular shape */
+    border: 1px solid #111010; /* Border for accent */
+  }
+
+
+
+
+
+header nav ul {
+  
+  list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+  
+
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20.6px;
+  justify-content: space-evenly;
+  font-weight: 600;
+}
+nav ul li a:hover {
+  background-color: rgba(238, 235, 234, 0.3); /* Transparent orange background on hover */
+  color:#f6eded; /* Change text color on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+.fitness {
+  background: url('Black and Green Modern Fitness Gym Instagram Post.png') no-repeat center center/cover;
+  
+  height: 200vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.fitness-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.fitness-content p {
+  font-size: 1.8rem;
+  margin-bottom: 50px;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  color:black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #c70039; /* Darker shade on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.about {
+ padding: 3rem;
+ text-align: center;
+}
+
+.services {
+  padding: 1rem;
+  text-align: center;
+  background: #f4f4f4;
+}
+.service-item:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.service-item {
+  width: 80%;
+}
+
+.service-item img {
+  width: 250px;
+  height: 250px;
+  }
+  .service-item:hover img {
+    transform: scale(1.05); /* Slight zoom on image */
+  }
+  .plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+  }
+  
+  .plan {
+    width: 30%;
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .plan .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .btn {
+    background-color: black;
+    color: #fff;
+  }
+  .contact {
+    padding: 2rem;
+    text-align: center;
+
+  }
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .contact-container form {
+    width: 50%;
+  }
+  .contact-container input, 
+  .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+  }
+  .contact-container button {
+    background: #0e0808;
+    color: #fff;
+    border: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    width: 40%;
+    text-align: left;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  
+
+
+  
+  
